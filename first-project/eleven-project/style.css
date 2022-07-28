@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+
+.flex{
+    max-width: 1200px;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img{
+    max-width: 550px;
+    border-radius: 9px;
+}
+
+.img img{
+    width: 100%;
+    border-radius: 9px;
+}
+
+.count{
+    max-width: 600px;
+}
+
+.count h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(0, 132, 255, 0.897);
+    text-transform: uppercase;
+}
+
+.count h5{
+    letter-spacing: 5px;
+}
+
+.count .pi{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 40px 0
+}
+
+.time-c{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.div-1{
+    background-color: rgba(0, 0, 255, 0.527);
+    width: 100px;
+    height: 80px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+    text-shadow: 1px 2px 3px black;
+}
+
+.div-1 p{
+    font-weight: 600;
+}
+
+.div-2{
+    background-color: rgba(0, 0, 255, 0.527);
+    width: 100px;
+    height: 80px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+    text-shadow: 1px 2px 3px black;
+}
+
+.div-2 p{
+    font-weight: 600;
+}
+
+.div-3{
+    background-color: rgba(0, 0, 255, 0.527);
+    width: 100px;
+    height: 80px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+    text-shadow: 1px 2px 3px black;
+}
+
+.div-3 p{
+    font-weight: 600;
+}
+
+.div-4{
+    background-color: rgba(0, 0, 255, 0.527);
+    width: 100px;
+    height: 80px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+    text-shadow: 1px 2px 3px black;
+}
+
+.div-4 p{
+    font-weight: 600;
+}
+
+@media (max-width: 1300px){
+    .flex{
+        flex-direction: column;
+        width: 96%;
+        justify-content: center;
+    }
+    .img{
+        width: 100%;
+    }
+    .count{
+        width: 100%;
+        text-align: center;
+    }
+
+    .time-c{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 545px){
+    .time-c{
+        width: 100%;
+    }
+}

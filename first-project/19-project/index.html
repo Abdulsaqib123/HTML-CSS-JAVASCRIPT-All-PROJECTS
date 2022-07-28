@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fascinate&family=Lobster&family=Montserrat+Alternates:wght@600&family=Montserrat:wght@400;500&family=Pacifico&family=Poppins:ital,wght@0,100;0,600;0,800;1,600&family=Raleway:wght@300;700&family=Righteous&family=Roboto:wght@300;400;500;700&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Image Editor</title>
+</head>
+<body>
+
+      <div class="edit">
+        <header>
+            <div class="btn-2">
+                <button type="button" class="one">Chooose Image</button>
+                <input type="file" id="choose" accept="image/*" hidden>
+                <button type="button" class="two">Save Image</button>
+            </div>
+            <div class="btn-1">
+                <button type="button" class="three">Reset filter</button>
+            </div>
+        </header>
+        <div class="flex">
+            <div class="row1">
+              <div class="img">
+                <img class="img1" src="./SVG.svg" alt="">
+                </div>
+            </div>
+            <div class="row2">
+              <div class="row3">
+              <div class="head">EDIT PHOTO</div>
+              <div class="tools">
+                <div class="rotate1">
+                  <div class="text">
+                  <div id="r1" class="fa fa-rotate-left"></div>
+                  <h3>Rotate Left</h3>
+                </div>
+                </div>
+                <div class="rotate2">
+                  <div class="text1">
+                  <div id="r2" class="fa fa-rotate-right"></div>
+                  <h3>Rotate right</h3>
+                </div>
+                </div>
+                <div class="rotate3">
+                  <div class="text2">
+                  <div id="r3" class="fa fa-rotate-left"></div>
+                  <h3>Rotate vertical</h3>
+                </div>
+                </div>
+                <div class="rotate4">
+                  <div class="text3">
+                  <div id="r4" class="fa fa-rotate-right"></div>
+                  <h3>Rotate Horizontal</h3>
+                </div>
+                </div>
+                <div class="rotate5">
+                  <div class="text3">
+                  <div id="r5" class="fa fa-sun-o"></div>
+                  <h3>Brightness</h3>
+                </div>
+                <input type="range" class="bright" id="br1">
+                <div class="val">50%</div>
+                </div>
+                <div class="rotate6">
+                  <div class="text3">
+                  <div id="r6"></div>
+                  <h3>Saturation</h3>
+                </div>
+                <input type="range" class="brights" id="br2">
+                <div class="val val1">50%</div>
+                </div>
+
+                <div class="rotate7">
+                  <div class="text3">
+                  <div id="r7"><img src="./image/invert.jpg" alt=""></div>
+                  <h3>Inversion</h3>
+                </div>
+                <input type="range" class="brights1" id="br2">
+                <div class="val val2">50%</div>
+                </div>
+
+                <div class="rotate8">
+                  <div class="text3">
+                  <div id="r8"><img src="./image/gray-removebg-preview.png" alt=""></div>
+                  <h3>Grayscale</h3>
+                </div>
+                <input type="range" class="brights2" id="br2">
+                <div class="val val3">50%</div>
+                </div>
+
+                <div class="rotate9">
+                  <div class="text3">
+                  <div id="r9"><i class="fa fa-adjust"></i></div>
+                  <h3>Resize</h3>
+                </div>
+                <input type="range" class="brights3" id="br2">
+                <div class="val val4">100%</div>
+                </div>
+
+                <div class="rotate10">
+                  <div class="text3">
+                  <div id="r10"><i class="fa fa-paint-brush"></i></div>
+                  <h3>Blur</h3>
+                </div>
+                <input type="range" class="brights4" id="br2" value="0">
+                <div class="val val5">0%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script src="./script.js"></script>
+    
+</body>
+</html>

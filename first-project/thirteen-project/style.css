@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+
+body{
+    background-color: rgba(0, 0, 255, 0.123);
+}
+
+.bud{
+    max-width: 500px;
+    margin: 90px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.form{
+    width: 100%;
+}
+.form p{
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-bottom: 14px;
+    display: none;
+}
+.form h2{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.inform{
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.171);
+}
+.inform input{
+    background-color: transparent;
+    border: none;
+    width: 80%;
+    padding-left: 18px;
+    color: black;
+    font-weight: 600;
+}
+.inform button{
+    width: 20%;
+    height: 30px;
+    border: none;
+    background-color: rgba(0, 0, 255, 0.61);
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.sets{
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.13);
+    padding: 10px;
+    display: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.set{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.write{
+    color: green;
+    background-color: rgba(255, 0, 0, 0.473);
+    color: white;
+    border: none;
+    width: 25px;
+    cursor: pointer;
+    height: 25px;
+    border-radius: 6px;
+}

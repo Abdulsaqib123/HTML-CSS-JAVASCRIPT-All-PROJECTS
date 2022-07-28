@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+
+body{
+    background-color: rgba(0, 0, 255, 0.089);
+}
+
+.h2{
+    width: 100%;
+    text-align: center;
+    font-size: 33px;
+    margin-bottom: 30px;
+}
+
+.lorem-c{
+    max-width: 630px;
+    margin: 0 auto;
+    padding: 90px 0;
+}
+
+.flex{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+form input{
+    border: none;
+    padding: 7px;
+    border-radius: 10px;
+    width: 90px;
+    margin-right: 20px;
+}
+
+form button{
+    background-color: rgba(0, 0, 255, 0.521);
+    border: none;
+    color: white;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.flex h3{
+    margin-right: 20px;
+    font-weight: 600;
+    color: rgb(255, 94, 0);
+}
+
+.values::placeholder{
+    font-weight: bold;
+}
+
+.values{
+    font-weight: bold;
+}
+
+.error{
+    width: 200px;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 0 20px;
+    margin-top: 20px;
+    display: none;
+    color: red;
+    background-color: rgba(255, 0, 0, 0.205);
+}
+
+.para{
+    width: 100%;
+    text-align: center;
+}
+
+.para div{
+    color: black;
+    font-weight: 600;
+    margin: 40px 0;
+}
+
+.para div:nth-child(1){
+    margin-top: 100px;
+}

@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 255, 0.137);
+}
+
+main{
+    padding: 100px 30px;
+}
+
+.row{
+    
+    max-width: 1300px;
+    margin: 0 auto;
+    display: grid;
+    gap: 3em;
+    grid-template-rows: 150px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.row div{
+    background-color: white;
+    padding: 0px 10px;
+    border-radius: 5px;
+    border-bottom: 4px solid orange;
+}
+
+.row div h2{
+    font-size: 70px;
+}
+
+.row div p{
+    font-weight: 600;
+}
+
+@media (max-width: 1017px){
+    .row{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 553px){
+    .row{
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,127 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+
+.tog{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+
+.tog i{
+    animation: bounce 2s linear infinite;
+    font-size: 2em;
+    color: rgb(0, 110, 255);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.tog i:hover{
+    color: rgba(0, 110, 255, 0.548);
+}
+
+.menu{
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 0 100px 0 rgba(0,0,0,20%);
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 0.6s;
+}
+
+.menu.active{
+    left: 0;
+}
+
+.menu-a{
+    margin-top: 60px;
+    height: 80%;
+    margin-bottom: auto;
+}
+
+.menu-a li a{
+    color: black;
+    font-weight: bold;
+    padding: 0px 20px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.menu-a li{
+    padding: 14px 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menu-a li:hover{
+    background-color: rgba(0, 89, 255, 0.534);
+}
+
+.close i{
+    color: crimson;
+    font-size: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.close:hover i{
+    transform: rotate(360deg);
+}
+
+.menu-a li:hover a{
+    color: white;
+    padding: 0 30px;
+}
+
+.flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.logo span{
+    font-size: 50px;
+    color: rgb(0, 110, 255);
+    font-weight: bold;
+}
+
+.so{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.so i{
+    margin: 0 4px;
+    font-size: 19px;
+    color: rgb(0, 110, 255);
+}
+
+@keyframes bounce {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
